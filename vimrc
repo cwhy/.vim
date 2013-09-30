@@ -1,4 +1,5 @@
 execute pathogen#infect()
+call pathogen#runtime_append_all_bundles()
 
 filetype indent on
 set relativenumber

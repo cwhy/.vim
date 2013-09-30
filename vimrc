@@ -1,5 +1,5 @@
-execute pathogen#infect()
-call pathogen#runtime_append_all_bundles()
+call pathogen#infect()
+call pathogen#helptags()                    " load plugin help file
 
 filetype indent on
 set relativenumber
@@ -31,3 +31,7 @@ let g:airline_powerline_fonts = 1
 let g:airline_theme = 'solarized'
 
 set laststatus=2
+
+let g:flake8_max_line_length=99
+let g:flake8_ignore="E231,E225"
+autocmd BufWritePost *.py call Flake8()

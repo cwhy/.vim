@@ -44,3 +44,5 @@ let g:flake8_ignore="E231,E226"
 autocmd BufWritePost *.py call Flake8()
 autocmd FileType python nnoremap <buffer> <F9> :exec '!python' shellescape(@%, 1)<cr>
 
+" LaTeX Box
+let g:LatexBox_latexmk_options = "-pvc -pdfps"

@@ -1,6 +1,24 @@
+set nocompatible
 call pathogen#infect()
 call pathogen#helptags()                    " load plugin help file
 
+" Chinese Support
+set fileencodings=utf-8,gb2312,gbk,gb18030
+
+" Font
+set enc=utf-8
+if has("gui_running")
+  if has("gui_gtk2")
+    set guifont=monofur\ for\ Powerline\ 13
+  elseif has("gui_macvim")
+    set guifont=monofur\ for\ Powerline\ Regular:h13
+  elseif has("gui_win32")
+    set guifont=monofur\ for\ Powerline:h13
+    "set guifont=monofur_for_Powerline:h13
+  endif
+endif
+
+" Basics
 set relativenumber
 au FocusLost * set number
 au FocusGained * set relativenumber
@@ -23,9 +41,6 @@ set showcmd
 " Code Folding
 set foldmethod=indent
 set foldlevel=99
-
-" Chinese Support
-set fileencodings=utf-8,gb2312,gbk,gb18030
 
 " Solarized
 syntax enable

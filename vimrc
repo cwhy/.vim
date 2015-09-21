@@ -34,9 +34,13 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 set smarttab
+set expandtab
 set autoindent
 set backspace=indent,eol,start
 set showcmd
+scriptencoding utf-8
+:set listchars=tab:\|.,trail:~,extends:>,precedes:<
+:set list
 
 " Code Folding
 set foldmethod=indent
@@ -61,3 +65,18 @@ autocmd FileType python nnoremap <buffer> <F9> :exec '!python' shellescape(@%, 1
 
 " LaTeX Box
 let g:LatexBox_latexmk_options = "-pvc -pdf"
+
+" Auto-format
+function! Preserve(command)
+  " Preparation: save last search, and cursor position.
+  let _s=@/
+  let l = line(".")
+  let c = col(".")
+  " Do the business:
+  execute a:command
+  " Clean up: restore previous search history, and cursor position
+  let @/=_s
+  call cursor(l, c)
+endfunction 
+nmap _$ :call Preserve("%s/\\s\\+$//e")<CR>
+nmap _= :call Preserve("normal gg=G")<CR>

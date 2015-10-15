@@ -22,3 +22,6 @@
 [submodule "bundle/MatlabFilesEdition"]
 	path = bundle/MatlabFilesEdition
 	url = git@github.com:vim-scripts/MatlabFilesEdition.git
+[submodule "/home/owner/.vim/bundle/vim-javascript"]
+	path = /home/owner/.vim/bundle/vim-javascript
+	url = https://github.com/pangloss/vim-javascript.git

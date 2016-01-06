@@ -53,9 +53,18 @@ set background=dark
 colorscheme solarized
 
 " Airline
-let g:airline_powerline_fonts = 1
 let g:airline_theme = 'solarized'
 set laststatus=2
+if !exists('g:airline_symbols')
+  let g:airline_symbols = {}
+endif
+
+if has("gui_running")
+    if has("gui_win32")
+	let g:airline_symbols.space = " "
+    endif
+endif
+let g:airline_powerline_fonts = 1
 
 " Python plugins
 let g:flake8_max_line_length=99

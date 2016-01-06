@@ -56,14 +56,10 @@ colorscheme solarized
 let g:airline_theme = 'solarized'
 set laststatus=2
 if !exists('g:airline_symbols')
-  let g:airline_symbols = {}
+    let g:airline_symbols = {}
 endif
 
-if has("gui_running")
-    if has("gui_win32")
-	let g:airline_symbols.space = " "
-    endif
-endif
+let g:airline_symbols.space = " "
 let g:airline_powerline_fonts = 1
 
 " Python plugins

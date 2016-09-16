@@ -1,8 +1,4 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/home/owner/ror/testing/app/controllers'
-let g:netrw_dirhist_2='/home/owner/ror/testing/app/controllers/concerns'
-let g:netrw_dirhist_3='/home/owner/.vim'
-let g:netrw_dirhist_4='/home/owner'
-let g:netrw_dirhist_5='/home'
-let g:netrw_dirhist_6='/home/owner/.vim/bundle/vim-javascript'
+let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_1='/home/owner/Desktop'
+let g:netrw_dirhist_2='/usr/share/texmacs/TeXmacs/progs/texmacs/keyboard'

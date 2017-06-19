@@ -1,4 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
-let g:netrw_dirhist_1='/home/owner/Desktop'
-let g:netrw_dirhist_2='/usr/share/texmacs/TeXmacs/progs/texmacs/keyboard'
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/var/log/apache2'
+let g:netrw_dirhist_2='/root'
+let g:netrw_dirhist_3='/etc/ldap/slapd.d/cn=config'
+let g:netrw_dirhist_4='/var/www'
+let g:netrw_dirhist_5='/var/www/html'

@@ -30,11 +30,11 @@ au BufRead,BufNewFile *.py set expandtab
 au BufRead,BufNewFile *.c set noexpandtab
 au BufRead,BufNewFile *.h set noexpandtab
 au BufRead,BufNewFile Makefile* set noexpandtab
+au BufRead,BufNewFile *.config set noexpandtab
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
-set smarttab
-set expandtab
+" set smarttab
 set autoindent
 set backspace=indent,eol,start
 set showcmd

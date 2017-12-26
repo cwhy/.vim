@@ -31,3 +31,6 @@
 [submodule "bundle/git-vim"]
 	path = bundle/git-vim
 	url = git://github.com/tpope/vim-git.git
+[submodule "bundle/typscript-vim"]
+	path = bundle/typscript-vim
+	url = https://github.com/leafgarland/typescript-vim.git

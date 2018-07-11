@@ -34,3 +34,6 @@
 [submodule "bundle/typscript-vim"]
 	path = bundle/typscript-vim
 	url = https://github.com/leafgarland/typescript-vim.git
+[submodule "bundle/vim-nix"]
+	path = bundle/vim-nix
+	url = git@github.com:LnL7/vim-nix.git

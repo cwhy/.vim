@@ -53,7 +53,6 @@ set background=dark
 colorscheme solarized
 
 " Airline
-let g:airline_theme = 'solarized'
 set laststatus=2
 if !exists('g:airline_symbols')
     let g:airline_symbols = {}

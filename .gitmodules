@@ -37,3 +37,6 @@
 [submodule "bundle/vim-nix"]
 	path = bundle/vim-nix
 	url = git@github.com:LnL7/vim-nix.git
+[submodule "bundle/vim-autopep8"]
+	path = bundle/vim-autopep8
+	url = git@github.com:tell-k/vim-autopep8.git

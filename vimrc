@@ -26,6 +26,7 @@ autocmd InsertEnter * set number
 autocmd InsertLeave * set relativenumber
 
 filetype indent on
+set expandtab
 au BufRead,BufNewFile *.py set expandtab
 au BufRead,BufNewFile *.c set noexpandtab
 au BufRead,BufNewFile *.h set noexpandtab

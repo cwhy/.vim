@@ -19,9 +19,6 @@
 [submodule "bundle/screen"]
 	path = bundle/screen
 	url = git@github.com:ervandew/screen.git
-[submodule "bundle/MatlabFilesEdition"]
-	path = bundle/MatlabFilesEdition
-	url = git@github.com:vim-scripts/MatlabFilesEdition.git
 [submodule "bundle/vim-javascript"]
 	path = bundle/vim-javascript
 	url = https://github.com/pangloss/vim-javascript.git
@@ -37,3 +34,9 @@
 [submodule "bundle/typscript-vim"]
 	path = bundle/typscript-vim
 	url = https://github.com/leafgarland/typescript-vim.git
+[submodule "bundle/vim-nix"]
+	path = bundle/vim-nix
+	url = git@github.com:LnL7/vim-nix.git
+[submodule "bundle/vim-autopep8"]
+	path = bundle/vim-autopep8
+	url = git@github.com:tell-k/vim-autopep8.git

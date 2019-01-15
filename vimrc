@@ -54,7 +54,6 @@ set background=dark
 colorscheme solarized
 
 " Airline
-let g:airline_theme = 'solarized'
 set laststatus=2
 if !exists('g:airline_symbols')
     let g:airline_symbols = {}
@@ -64,8 +63,6 @@ let g:airline_symbols.space = " "
 let g:airline_powerline_fonts = 1
 
 " Python plugins
-let g:flake8_max_line_length=99
-let g:flake8_ignore="E231,E226"
 autocmd BufWritePost *.py call Flake8()
 autocmd FileType python nnoremap <buffer> <F9> :exec '!python' shellescape(@%, 1)<cr>
 

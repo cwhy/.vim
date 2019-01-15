@@ -40,3 +40,6 @@
 [submodule "bundle/vim-autopep8"]
 	path = bundle/vim-autopep8
 	url = git@github.com:tell-k/vim-autopep8.git
+[submodule "bundle/solarized8"]
+	path = bundle/solarized8
+	url = https://github.com/lifepillar/vim-solarized8.git

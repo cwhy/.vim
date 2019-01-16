@@ -18,6 +18,7 @@ if has("gui_running")
     endif
 endif
 
+
 " Basics
 set relativenumber
 au FocusLost * set number
@@ -47,6 +48,12 @@ scriptencoding utf-8
 set foldmethod=indent
 set foldlevel=99
 
+" Colors
+if exists('+termguicolors')
+    let &t_8f="\<Esc>[38;2;%lu;%lu;%lum"
+    let &t_8b="\<Esc>[48;2;%lu;%lu;%lum"
+    set termguicolors
+endif
 " Solarized
 syntax enable
 set background=dark

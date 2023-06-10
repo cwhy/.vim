@@ -9,10 +9,10 @@
 	url = https://github.com/nvie/vim-flake8
 [submodule "bundle/sensible"]
 	path = bundle/sensible
-	url = git@github.com/tpope/vim-sensible.git
+	url = git@github.com:tpope/vim-sensible.git
 [submodule "bundle/latex-box"]
 	path = bundle/latex-box
-	url = git@github.com/LaTeX-Box-Team/LaTeX-Box.git
+	url = git@github.com:LaTeX-Box-Team/LaTeX-Box.git
 [submodule "bundle/screen"]
 	path = bundle/screen
 	url = git@github.com:ervandew/screen.git
@@ -27,7 +27,7 @@
 	url = git@github.com:ElmCast/elm-vim.git
 [submodule "bundle/git-vim"]
 	path = bundle/git-vim
-	url = git@github.com/tpope/vim-git.git
+	url = git@github.com:tpope/vim-git.git
 [submodule "bundle/typscript-vim"]
 	path = bundle/typscript-vim
 	url = https://github.com/leafgarland/typescript-vim.git
